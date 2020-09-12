@@ -48,7 +48,7 @@ export default function NavBar() {
             to="/dashboard"
             style={{ textDecoration: 'none', color: 'white' }}
           >
-            <Button color="inherit">Dashboard</Button>
+            <Button color="inherit">User</Button>
           </Link>
         </Toolbar>
       </AppBar>

@@ -22,12 +22,12 @@ const Dashboard = () => {
           paddingRight: '1%',
         }}
       >
-        <Link
+        {/* <Link
           to="/dashboard/addfriend"
           style={{ textDecoration: 'none', color: 'white' }}
         >
           <Button style={{ backgroundColor: 'white' }}>Add Friend</Button>
-        </Link>
+        </Link> */}
 
         <Button onClick={() => signOut()} style={{ backgroundColor: 'white' }}>
           Sign Out

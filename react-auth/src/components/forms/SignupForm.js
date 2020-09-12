@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Card from '@material-ui/core/Card';
@@ -138,6 +139,13 @@ export default function SignupForm(props) {
                 Submit
               </Button>
             </CardActions>
+            <br />
+            <Typography style={{ marginLeft: '6%' }}>
+              Already a member?
+            </Typography>
+            <Link to="/signup">
+              <Button>Login here</Button>
+            </Link>
           </form>
         </CardContent>
       </Card>
