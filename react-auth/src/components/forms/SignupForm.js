@@ -143,7 +143,7 @@ export default function SignupForm(props) {
             <Typography style={{ marginLeft: '6%' }}>
               Already a member?
             </Typography>
-            <Link to="/signup">
+            <Link to="/login">
               <Button>Login here</Button>
             </Link>
           </form>
